@@ -1,0 +1,89 @@
+{
+  "name": "Automotive Assistant",
+  "description": "Assistant for automotive industry information",
+  "language": "en",
+  "type": "dialog",
+  "workspace_id": "78935058-e696-43c1-8782-18e7a48f3a6f",
+  "intents": [
+    {
+      "intent": "greeting",
+      "description": "User greetings",
+      "examples": [
+        {
+          "text": "hey hello"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        }
+      ]
+    },
+    {
+      "intent": "how_are_you",
+      "description": "Asking about well-being",
+      "examples": [
+        {
+          "text": "how are you"
+        },
+        {
+          "text": "how are you doing"
+        }
+      ]
+    },
+    {
+      "intent": "car_industry_info",
+      "description": "Inquiring about car industries in Italy",
+      "examples": [
+        {
+          "text": "tell about car industries in italy"
+        },
+        {
+          "text": "what about car industries in italy"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "dialog_node": "greeting_node",
+      "type": "standard",
+      "conditions": "#greeting",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "text": "hey hello how are you"
+          }
+        ]
+      }
+    },
+    {
+      "dialog_node": "how_are_you_node",
+      "type": "standard",
+      "conditions": "#how_are_you",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "text": "i am good, how can i help you"
+          }
+        ]
+      }
+    },
+    {
+      "dialog_node": "car_industry_info_node",
+      "type": "standard",
+      "conditions": "#car_industry_info",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "text": "2,500 companies, over 160 thousand employees and more than Euro 100 billion in total revenues. These are some of the key figures of the Italian automotive industry which ranks 6th in Europe and 19th in the world for production, and 4th in Europe and 9th in the world for sales."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "report_number": "I0009873740T",
+    "date": "21.01.2019",
+    "stones": [
+        {
+            "mineral_type": "Corundum"
+        },
+        {
+            "variety": "Nat. Ruby"
+        },
+        {
+            "carat_weight": "1.59ct"
+        },
+        {
+            "shape": "Oval"
+        },
+        {
+            "cut": "Brilliant-Step"
+        },
+        {
+            "please_refer_to_the_igs_reports_website_for_terms_and_conditions.": null
+        },
+        {
+            "mix_cut": null
+        },
+        {
+            "red": null
+        },
+        {
+            "transparent": null
+        },
+        {
+            "9": null
+        },
+        {
+            "6.11_x_3.54_x_8.20": null
+        }
+    ],
+    "assets": [
+        {
+            "rel_path": "..\\..\\Downloads\\Extracted_Images\\Images\\I0009873740T_image_2.png",
+            "rel_url": "/../../Downloads/Extracted_Images/Images/I0009873740T_image_2.png",
+            "abs_path": "C:\\Users\\vedansh\\Downloads\\Extracted_Images\\Images\\I0009873740T_image_2.png",
+            "abs_url": "http://example.com/Extracted_Images/Images/I0009873740T_image_2.png"
+        }
+    ]
+}

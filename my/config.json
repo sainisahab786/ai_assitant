@@ -1,0 +1,9 @@
+{
+    "main_folder_path": "C:\\Users\\vedansh\\Downloads\\excel_files",
+    "comparison_images_folder_path": "D:\\desktop downloads\\image_comparision",
+    "output_path": "C:\\Users\\vedansh\\my\\Extracted_Images",
+    "images_output_path": "C:\\Users\\vedansh\\Downloads\\Extracted_Images\\Images",
+    "base_url": "http://example.com/Extracted_Images/Images",
+    "image_similarity_threshold": 5
+  }
+  
